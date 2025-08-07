@@ -26,6 +26,11 @@
     border-radius: 2px;
 }
 
+.hero-section > .bottom-head {
+    color: #cbcbcb;
+    font-size: 2rem;
+}
+
 /* Features section styles */
 .features-section {
     height: 400px;

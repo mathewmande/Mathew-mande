@@ -6,29 +6,29 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 450px;
+    height: 230px;
     margin-top: -4px;
 }
 
-.footer > .logo-footer img {
+/* .footer > .logo-footer img {
     width: 180px;
     height: 100%;
-    /* filter: brightness(50%); */
+    filter: brightness(50%);
     opacity: 0.5;
-}
+} */
 
-.footer > .footer-phone-hours span {
+/* .footer > .footer-phone-hours span {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 1em;
     letter-spacing: 2px;
-}
+} */
 
-.footer > .footer-phone-hours > .hours {
+/* .footer > .footer-phone-hours > .hours {
     font-size: 0.8em;
     color: rgb(179, 12, 12);
     text-transform: uppercase;
-}
+} */
 
 .footer > .links-wrapper {
     margin-top: 40px;
@@ -37,7 +37,7 @@
 }
 
 .footer > .social-media-icons-wrapper {
-    margin-top: 40px;
+    margin-top: 10px;
     margin-bottom: 40px;
     width: 300px;
     display: flex;
