@@ -24,13 +24,13 @@
     font-size: 2em;
 }
 
-.navigation-wrapper > .left-column > .contact-hours-wrapper {
+.navigation-wrapper > .left-column > .surnane-year-wrapper {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 10px;
 }
 
-.navigation-wrapper > .left-column > .contact-hours-wrapper > .hours {
+.navigation-wrapper > .left-column > .surnane-year-wrapper > .year {
     font-family: 'Ubuntu Condensed', sans-serif;
     color: #858585;
     font-size: 0.8em;
