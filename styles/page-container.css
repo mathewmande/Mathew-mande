@@ -11,18 +11,21 @@
     width: 350px;
     margin: 23px 40px 20px 0px;
     float: left;
-    border: 1px solid rgb(179, 12, 12);
+    /* border: 1px solid rgb(179, 12, 12); */
+    padding-left: 40px;
+}
+
+.page-container > .content-wrapper p {
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 40px;
+    padding-top: 0%;
 }
 
 /* .page-container > .content-wrapper p {
-    letter-spacing: 1px;
-    line-height: 30px;
-} */
-
-.page-container > .content-wrapper p {
     font-size: 18px;
     font-family: Arial, sans-serif;
     color: #222;
     letter-spacing: 0.5px;
     line-height: 1.6;
-}
+} */
