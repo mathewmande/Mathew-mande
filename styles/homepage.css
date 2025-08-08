@@ -1,8 +1,8 @@
 /* Hero section styles */
 .hero-section {
-    background-image: url(../images/backgrounds/forest\ image.jpg);
+    background-image: url(../images/backgrounds/about\ pic.jpg);
     padding: 100px;
-    height: 300px;
+    height: 500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 
 .hero-section > .bottom-head {
     color: #cbcbcb;
-    font-size: large;
+    font-size: xx-large;
 }
 
 /* Features section styles */
