@@ -1,12 +1,24 @@
 .btn {
-    background-color: rgb(179, 12, 12);
+    /* background-color: rgb(179, 12, 12);
     color: #11122b;
     font-size: 1.25em;
     padding: 10px 25px;
     border: 1px solid #11122b;
     border-radius: 15px;
     outline: none;
+    transition: 0.3s; */
+
+    background-color: #11122b;
+    color: #cbcbcb;
+    font-size: 1.25em;
+    padding: 8px 20px;
+    border: 1px solid #11122b;
+    border-radius: 35px;
+    outline: none;
     transition: 0.3s;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.4)
+    
+    
 }
 
 .btn:active {

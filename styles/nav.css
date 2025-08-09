@@ -75,6 +75,29 @@
     color: #cbcbcb;
     text-decoration: none;
     transition-duration: 0.5s;
+
+    /* border-radius: 50px;
+    box-sizing: border-box;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s; */
+    
+    
+
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 0.8em;
+    letter-spacing: 0.5px;
+    /* border: 1px solid #858585; */
+    background-color: #11122b;
+    border-color: #858585;
+    /* transition: 0.5s; */
+
 }
 
 .links-wrapper > .nav-link a:hover {
