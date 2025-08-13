@@ -1,5 +1,5 @@
 /* Hero section styles */
-.hero-section {
+/* .hero-section {
     background-image: url(../images/backgrounds/about\ pic.jpg);
     padding: 100px;
     height: 500px;
@@ -7,14 +7,30 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
+
+ .hero-section > video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+ }
 
 .hero-section > .top-heading {
     padding: 1px 20px;
     background-color: #11122b;
     color: #cbcbcb;
     width: 290px;
+
+
     border-radius: 2px;
+    margin-top: 50px;
+    margin-left: 50px;
+    
 }
 
 .hero-section > .bottom-heading {
@@ -24,11 +40,20 @@
     margin-top: 15px;
     width: 266px;
     border-radius: 2px;
+
+    margin-left: 50px;
+    margin-top: 15px;
 }
 
 .hero-section > .bottom-head {
     color: #cbcbcb;
     font-size: xx-large;
+
+
+    font-weight: bold;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* Features section styles */
