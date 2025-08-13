@@ -18,7 +18,16 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    background-size: cover;
+    
+    
+    
+
+    right: inherit;
+
+
+
+/* padding: 100x;
+height: 700px; */
  }
 
 .hero-section > .top-heading {
