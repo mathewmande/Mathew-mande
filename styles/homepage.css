@@ -18,13 +18,14 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+    background-size: cover;
  }
 
 .hero-section > .top-heading {
     padding: 1px 20px;
     background-color: #11122b;
     color: #cbcbcb;
-    width: 290px;
+    width: 275px;
 
 
     border-radius: 2px;
