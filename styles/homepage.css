@@ -10,7 +10,7 @@
 } */
 
 
- .hero-section > video {
+ /* .hero-section > video {
     position: fixed;
     top: 0;
     left: 0;
@@ -18,12 +18,22 @@
     height: 100%;
     object-fit: cover;
     z-index: -1;
+ } */
 
 
-    content: '';
-    background: rgba(0, 0, 0, 0.4);
-
+ .hero-section > video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -2;
  }
+
 
 .hero-section > .top-heading {
     padding: 1px 20px;
