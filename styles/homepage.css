@@ -81,3 +81,75 @@
 .features-section > .columns-wrapper > .column :nth-child(3) {
     letter-spacing: 2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.map-section {
+    position: relative;
+    background: url(../images/squares/math\ picture.jpg) no-repeat center center/cover;
+    padding: 100px 150px;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: "Ubuntu Condensed", sans-serif;
+    color: #fff;
+    overflow: hidden;
+    background-attachment: fixed;
+}
+
+/* Dark overlay so text is always readable */
+.map-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(17, 18, 43, 0.6); /* dark blue transparent */
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.map-section h2,
+.map-section p {
+    position: relative;
+    z-index: 1;
+}
+
+.map-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.map-section p {
+    font-size: 1.2em;
+    line-height: 1.6em;
+    max-width: 700px;
+    margin: 0 auto;
+}

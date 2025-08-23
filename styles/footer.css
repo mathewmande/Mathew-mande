@@ -17,7 +17,7 @@
     width: 400px;
 }
 
-.footer > .social-media-icons-wrapper {
+/* .footer > .social-media-icons-wrapper {
     margin-top: 10px;
     margin-bottom: 40px;
     width: 300px;
@@ -34,7 +34,7 @@
 .footer > .social-media-icons-wrapper a img:hover {
     transform: scale(1.2);
     opacity: 0.7;
-}
+} */
 
 .footer > .copyright-wrapper {
     margin-bottom: 20px;
